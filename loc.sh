@@ -20,10 +20,10 @@ echo "TOTAL `expr $html + $css + $c + $js + $jsx + $lostcode`">> loc
 total=`expr $js + $jsx + $tsx`
 #echo "$total" 
 echo -e "HTML   $html \nCSS    $css \nC   $c \nJava Script   $js \nTOTAL `expr $html + $css + $c + $js`" > locc.txt
-echo '{ "html": "'"$html"'",' > my-works/loc.json
-echo ' "css": "'"$css"'",' >> my-works/loc.json
-echo ' "javaScript": "'"$total"'"' >> my-works/loc.json
-echo '}' >> my-works/loc.json
+echo '{ "html": "'"$html"'",' > Line_Of_Code/loc.json
+echo ' "css": "'"$css"'",' >> Line_Of_Code/loc.json
+echo ' "javaScript": "'"$total"'"' >> Line_Of_Code/loc.json
+echo '}' >> Line_Of_Code/loc.json
 # echo "CSS    $css" > locc
 # echo "C   $c" > locc
 # echo "Java Script   $js" > locc
