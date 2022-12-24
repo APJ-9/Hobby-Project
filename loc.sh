@@ -24,12 +24,3 @@ echo '{ "html": "'"$html"'",' > Line_Of_Code/loc.json
 echo ' "css": "'"$css"'",' >> Line_Of_Code/loc.json
 echo ' "javaScript": "'"$total"'"' >> Line_Of_Code/loc.json
 echo '}' >> Line_Of_Code/loc.json
-# echo "CSS    $css" > locc
-# echo "C   $c" > locc
-# echo "Java Script   $js" > locc
-# echo "TOTAL `expr $html + $css + $c + $js`"> locc
-
-#(find . -type f -name "*.js" ! -path "*node_modules/*" ! -path "*.cache/*" ! -path "*public/*" -exec awk NF {} \; | wc -l
-#find . -type f -name "*.js" ! -path "*node_modules/*" ! -path "*.cache/*" ! -path "*public/*" 
-#find . -type f -name "*.js" ! -path "*node_modules/*" ! -path "*.cache/*" ! -path "*public/*" -exec awk NF {} \; | wc -l
-
