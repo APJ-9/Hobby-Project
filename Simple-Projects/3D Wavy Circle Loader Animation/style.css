@@ -28,6 +28,7 @@ body {
     box-sizing: border-box;
     border-radius: 50%;
     animation: animate 3s ease-in-out infinite;
+    user-select: none;
 }
 
 @keyframes animate{
