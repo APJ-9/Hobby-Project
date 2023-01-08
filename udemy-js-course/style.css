@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: #222;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    background-color: #333;
+    color: #eee;
+}
+
+header {
+    background-color: #222;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header span {
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.icon {
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    padding: 0;
+    position: relative;
+    height: 30px;
+    width: 30px;
+}
+
+.icon:focus {
+    outline: 0;
+}
+
+.icon .line {
+    background-color: #fff;
+    height: 2px;
+    width: 20px;
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    transition: transform 0.6s linear;
+}
+
+.icon .line2 {
+    top: auto;
+    bottom: 10px;
+}
+
+h1 {
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.card {
+    background-color: #ccc;
+    /* padding: 5px; */
+    margin: 10px;
+    height: 300px;
+    width: 230px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.project-number {
+    height: 60%;
+    font-size: 100px;
+    /* background-color: yellow; */
+}
+
+.project-number span {
+    padding-left: 20px;
+}
+
+.card .details {
+    /* background-color: firebrick; */
+    width: 100%;
+    height: 40%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card .details p {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: center;
+    /* padding-left: 10px; */
+}
+
+button {
+    padding: 10px 15px;
+    margin-top: 10px;
+    background-color: #fff;
+    border: none;
+    font-weight: bold;
+    border-radius: 4px;
+    color: #111;
+}
